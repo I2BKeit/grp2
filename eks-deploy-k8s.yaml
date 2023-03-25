@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: 12bk/group1:v1
+        image: nginx
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
