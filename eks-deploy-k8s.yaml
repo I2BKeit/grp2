@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: 12bk/group1
+        image: 12bk/group1:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
@@ -46,7 +46,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: myapp2
+  name: myapp3
  
 spec:
   rules:
