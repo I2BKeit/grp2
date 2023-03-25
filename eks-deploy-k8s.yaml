@@ -50,7 +50,7 @@ metadata:
  
 spec:
   rules:
-  - host: myapp.samadounoorcloudsolutions.com
+  - host: gourpe.samadounoorcloudsolutions.com
     http:
       paths:
       - path: /
