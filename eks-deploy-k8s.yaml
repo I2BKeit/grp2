@@ -50,7 +50,7 @@ metadata:
  
 spec:
   rules:
-  - host: gourpe.samadounoorcloudsolutions.com
+  - host: pro.samadounoorcloudsolutions.com
     http:
       paths:
       - path: /
@@ -60,3 +60,4 @@ spec:
             name: springboot-app 
             port:
               number: 80
+
